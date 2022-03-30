@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Tags:
+            Tags are something which are having opening brackets and 
+            closing brackets and it should be meaningful.
+            Self closing tags are the tags which doesn't require the 
+            closing tags. Examples: img, input, hr, meta etc.
+        
+        Attributes:
+            Attributes are something which will provide additional 
+            information to the element. Examples: href, src, style, class,
+            id etc;
+
+        Content:
+            Contents are something which are written in between the 
+            opening and closing tag.
+
+
+        Element:
+            Element is the combination of tag and content.
+
+
+        Block-level and Inline Element:
+            Block-level elements are the one which will start from the new 
+            line or occupy the whole line. Examples: h1 to h6, p, pre, 
+            form etc.
+            Inline elements are the one which will start from the same 
+            line or occupy only the required space. Examples: span, img, 
+            em, i, a etc.
+        
+
+        Heading Tags:
+            There are six types of heading tags in html. Their range is 
+            from h1 to h6. h1 is the highest heading tag and h6 is the 
+            lowest heading tag.
+            The h1 to h6 tag always start from a new line. That's why it 
+            is a block-level element. 
+    -->
+    <h1>This is h1 heading tag.</h1>
+    <h2>This is h2 heading tag.</h2>
+    <h3>This is h3 heading tag.</h3>
+    <h4>This is h4 heading tag.</h4>
+    <h5>This is h5 heading tag.</h5>
+    <h6>This is h6 heading tag.</h6>
+
+        
+    <!-- 
+        Paragraph Tags:
+            p tag is called paragraph tag. Paragraphs tags are used for 
+            creating a paragraph in our page.
+            The paragraph tag always start from a new line. That's why it
+            is a block-level element. 
+    -->
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+
+    <!-- 
+        hr tag:
+            hr tag is used to create an horizontal line. 
+            The hr tag always start from a new line. That's why it is a 
+            block-level element.
+    -->
+    <hr>
+
+
+    <!-- 
+        br tag:
+            br tag is used to give break whenever we want to start the 
+            content in new line. 
+            The br tag always start from a new line. That's why it is a 
+            block-level element.
+    -->
+    <p>
+        Hello there!<br>How are you?
+    </p>
+
+
+    <!-- 
+        Span tag:
+            The span tag always start from same line. That's why it is an 
+            inline element. 
+    -->
+    <span>This is span tag.</span>
+    <span>This is span tag.</span>
+
+
+    <!-- 
+        Anchor tag:
+            a tag is called anchor tag. href is an attribute with 
+            specifies the path or destiny of the URL.
+            To open the link in new tab, we should set the target 
+            attribute as "_blank". By default, our page will open in same
+            tab. The anchor tag always start from same line. That's why it 
+            is an inline element.
+    -->
+    <a href="google.com">
+        This link will open in same tab.
+    </a>    
+    <a href="google.com" target="_blank">
+        This link will open in new tab.
+    </a>
+
+
+    <!-- 
+        Ordered list:
+            If we want to align the items in order manner, then we should 
+            use ordered list.
+            By default, ordered list types are in numbers. There are five 
+            types of ordered lists. They are - Numbers: "1", Capital Roman 
+            Numbers: "I", Small Roman Numbers: "i", Capital Letters: "A", 
+            Small Letters: "a".
+            The ol and li tag always start from the new line. That's why 
+            these are a block-level element.
+    -->
+    <ol>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cucumber</li>
+        <li>Guava</li>
+    </ol>
+    <ol type="1">
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cucumber</li>
+        <li>Guava</li>
+    </ol>
+    <ol type="I">
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cucumber</li>
+        <li>Guava</li>
+    </ol>
+    <ol type="i">
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cucumber</li>
+        <li>Guava</li>
+    </ol>
+    <ol type="A">
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cucumber</li>
+        <li>Guava</li>
+    </ol>
+    <ol type="a">
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cucumber</li>
+        <li>Guava</li>
+    </ol>
+
+
+    <!-- 
+        Unordered List: 
+            If we don't want to align the items in ordered manner, then we 
+            should use unordered list.
+            By default, unordered list types are in disc style. There 
+            are four types of unordered lists. They are - disc, circle,
+            square, none. 
+            The ul tag always start from the new line. That's why this is
+            a block-level element.
+    -->
+    <ul>
+        <li>Tea</li>
+        <li>Coffee</li>
+        <li>Milk</li>
+        <li>Butter</li>
+        <li>Cheese</li>
+    </ul>
+    <ul style="list-style-type: disc;">
+        <li>Tea</li>
+        <li>Coffee</li>
+        <li>Milk</li>
+        <li>Butter</li>
+        <li>Cheese</li>
+    </ul>
+    <ul style="list-style-type: circle;">
+        <li>Tea</li>
+        <li>Coffee</li>
+        <li>Milk</li>
+        <li>Butter</li>
+        <li>Cheese</li>
+    </ul>
+    <ul style="list-style-type: square;">
+        <li>Tea</li>
+        <li>Coffee</li>
+        <li>Milk</li>
+        <li>Butter</li>
+        <li>Cheese</li>
+    </ul>
+    <ul style="list-style-type: none;">
+        <li>Tea</li>
+        <li>Coffee</li>
+        <li>Milk</li>
+        <li>Butter</li>
+        <li>Cheese</li>
+    </ul>
+
+    <!-- 
+        Form tag:
+            Form tag is used to create a form. 
+            The form tag always start from the new line. That's why this 
+            is a block-level element.
+
+        Label tag:
+            Label tag is used to display our form data on screen.
+
+        Input tag:
+            Input tag is something where we can give our data. Here id 
+            attribute should be same as the for attribute of label tag.
+            placeholder attribute is for giving the additional hints to
+            the clients to fill the data. Required attribute is used to
+            set that input as mandatory to fill up.
+
+        The label and input tag always start from the same line. That's 
+        why this is an inline element.
+    -->
+    <form action="index2.html">
+        <label for="name">Username: </label>
+        <input required type="text" id="name" placeholder="Enter Your Username" name="name" value="">
+        
+        <label for="age">Age: </label>
+        <input type="number" id="age" placeholder="Enter Your Age" name="age" value="">
+        
+        <label for="email">Email address: </label>
+        <input type="email" id="email" placeholder="Enter Your Email Address" name="email" value="">
+        
+        <label for="password">Password: </label>
+        <input type="password" id="password" placeholder="Enter Your Password" name="password" value="">
+        
+        <input type="submit">
+    </form>
+</body>
+</html>
